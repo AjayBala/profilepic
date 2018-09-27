@@ -1,0 +1,65 @@
+@import "../../../Style.scss";
+
+.bnrFormAccWrap {
+    max-width: 100%;
+}
+
+.TabOutterWrap{
+    @extend %fullWrap; 
+    // @include paddingLeftRight(10px);
+    .TabHeaderWrap{
+      @extend %fullWrap;
+      background-color: #4A4A4A;
+      @include paddingAll(20px);
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      .TabHeaderTitle {
+        @include paraHev_fluid(14px, #ccc , 20px);
+        width:auto;
+        float: left;
+        padding: 10px 30px 0px 30px;
+        text-align: center;
+        cursor: pointer;
+        &:first-child{
+          text-align: left;
+        }
+        &:last-child{
+          text-align: right;
+        }
+        span{
+          display: inline-block;
+          padding-bottom: 5px;
+        }
+      }
+      .TabHeaderTitle.react-tabs__tab--selected{
+          padding-bottom: 3px;
+          border-bottom:2px solid #fff;
+      }
+    }
+
+    .TabContentWrap{
+      @extend %fullWrap;
+      @include paddingAll(30px);
+      background-color: #f1f1f1;
+      .react-tabs__tab-panel{
+        @extend %fullWrap;
+        @include paddingAll(30px);
+        @include borderRadius(3px);
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+        display: none;
+      }
+      .react-tabs__tab-panel.react-tabs__tab-panel--selected{
+        display: block;
+      }
+    }
+  }
+
+  .UserManagementAddUserBtn{
+      float: right;
+  }
+
+  .AddUserBtn{
+      border-radius: 5px;
+      height: 24px;	width: 96px;
+  }

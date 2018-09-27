@@ -1,0 +1,3 @@
+export const CURRENT_MEMBERS_LIST = 'CURRENT_MEMBERS_LIST';
+
+export const DELETE_GROUP = 'DELETE_GROUP';

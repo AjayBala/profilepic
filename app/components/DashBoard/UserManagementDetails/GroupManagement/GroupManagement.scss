@@ -1,0 +1,13 @@
+@import "../../../../Style.scss";
+
+.gm-add-group {
+    min-height: 250px;
+    @include centerAlignBoxMaxWidth(304px);
+    border-radius: 2px;
+    background-color: ffff;
+    box-shadow: 0px 2px 6px #dadde3;
+    @extend %centerAlignWrap;
+    margin-right: 50px;
+    @include titleHevNeu(18px, #4A4A4A, 22px);
+    margin-top: 50px;
+}

@@ -1,0 +1,32 @@
+@import "../../../../Style.scss";
+
+.HeaderTxt_ComBu{@include titleHev(24px,#4A4A4A, 30px);@include paddingTopBottom(20px);letter-spacing: 0px;}
+
+
+
+i.fa.fa-building.userIcon {
+    font-size: 50px;
+}
+
+.file.fileSpace {
+    margin-top: 0px;
+}
+
+
+.saveBtn {
+    background-color: black;
+
+}
+
+.einField {
+    margin-top: 200px;
+}
+
+.reSaleCertification {
+    background-color:#E7E8EA;
+}
+
+.deactivateAccount {
+    text-align: center;
+}
+

@@ -1,0 +1,65 @@
+{
+    "userList": [ 
+        {
+        "id": 1,
+        "name": "Jane Doe",
+        "email": "janedoe@overstock.com",
+        "role": "Admin",
+        "group": "Maintenance"
+        }, {
+            "id": 2,
+            "name": "Jon Doe",
+            "email": "janedoe@overstock.com",
+            "role": "Admin",
+            "group": "Tech Team"
+        }, {
+            "id": 3,
+            "name": "Jan Doe",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Maintenance"
+        }, {
+            "id": 4,
+            "name": "Jon Do",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Maintenance"
+        }, {
+            "id": 5,
+            "name": "Jane Doee",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Tech Team"
+        }, {
+            "id": 6,
+            "name": "Janee Doee",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Maintenance"
+        }, {
+            "id": 7,
+            "name": "Janee Doe",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Tech Team"
+        }, {
+            "id": 8,
+            "name": "Janee Do",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Maintenance"
+        }, {
+            "id": 9,
+            "name": "Jaane Doee",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Tech Team"
+        }, {
+            "id": 10,
+            "name": "Jaane Doe",
+            "email": "janedoe@overstock.com",
+            "role": "Contributor",
+            "group": "Maintenance"
+        }
+    ]
+}

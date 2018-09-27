@@ -1,0 +1,43 @@
+@import "../../Style.scss";
+
+#HeaderWrap{ @extend %fullWrap;
+    @include paddingAll(15px);
+    background-color: #1c1c1c;
+}
+#HeaderWrap .mainLogo{ height:42px; float: left; max-width: 100%; }
+.mainLogoWrap{ @extend %left; }
+.HeaderIconWrap {
+    @extend %fullWrap;
+    float:right;
+  }
+  .HeaderIconWrap li {
+    @include marginLeftRight(20px);
+    float: left;
+    color: #fff;
+  }
+  .HeaderIconWrap li a {
+    float: left;
+    @include paraHev_fluid(18px, #fff, 24px);
+  }
+  .HeaderIconWrap li a:hover{
+    background-color: transparent;
+    color: #c7212b;
+  }
+  .HeaderIconWrap li:first-child {
+    margin-left: 0;
+  }
+  .HeaderIconWrap li:first-child a {
+    padding-left: 0;
+  }
+  .HeaderTopMenu {
+      float: right;
+  }
+
+
+
+
+  
+
+
+
+

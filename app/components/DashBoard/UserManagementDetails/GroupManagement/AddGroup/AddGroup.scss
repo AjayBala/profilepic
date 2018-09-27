@@ -1,0 +1,63 @@
+@import "../../../../../Style.scss";
+
+.newGroupStyle {
+    min-height: 250px;
+    @include centerAlignBoxMaxWidth(304px);
+    border-radius: 2px;
+    background-color: ffff;
+    box-shadow: 0px 2px 6px #dadde3;
+    margin-right: 50px;
+    margin-top: 50px;
+    div {
+        margin-top: 10px; 
+    }
+    i.fa {
+        display: inline-block;
+        border-radius: 60px;
+        box-shadow: 0px 0px 2px #888;
+        padding: 0.5em 0.6em;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .dropdown-toggle .caret{
+        display: none;
+    }
+}
+
+.gm-edit-name {
+    border-bottom: 1px solid black;
+}
+
+.newGroupOption:after {
+    content: '\2807';
+    font-size: 2em;
+    color: #2e2e2e;
+    float: right;
+}
+
+.newGroupLabel {
+    margin-top: 10px;
+    @extend %font-helvetica; 
+    font-size: 18px; 
+    color:#4A4A4A; 
+    line-height: 22px;
+    letter-spacing: 1px;
+    border: 0;
+}
+
+a.dropdown-toggle::after{
+    display:none;
+}
+
+.dropdown-menu .active a {
+    background-color: rgba(173,205,241,0.41);
+    color: black;
+    &:hover {
+        background-color: rgba(173,205,241,0.41);
+        color: black;
+    }
+}
+
+// .caret-off::before {
+//     display: none;
+// }
